@@ -1,3 +1,8 @@
 body {
     background-color: pink;
 }
+
+.intro {
+    font-size: 50px;
+    text-align: center
+}
