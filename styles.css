@@ -90,6 +90,53 @@ button:hover {
     align-items: center;
 }
 
+/* Job Paragraph Section */
+
+section {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.ux_dev {
+    background-color: none;
+    color: white;
+    text-align: left;
+}
+
+.front_dev {
+    background-color: none;
+    color: white;
+    text-align: right;
+}
+
+.cloud {
+    background-color: none;
+    color: white;
+    text-align: left;
+}
+
+.text_container {
+    background-color: rgba(255, 255, 255, 0.07); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+    padding: 50px;
+    max-width: 600px;
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.text_container:hover{
+    transform: translateY(-5px);
+    background-color: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 0 30px 5px rgba(255, 20, 147, 0.6); 
+    border-color: rgba(255, 20, 147, 0.4);
+}
+/* Job Paragraph Section */
+
 footer {
     margin-top: auto;
     background-image: url("assets/footer_img2.jpg");
